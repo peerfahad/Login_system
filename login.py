@@ -52,7 +52,7 @@ class login_system:
         elif self.uname.get() == "fahad" and self.paswd.get() == "123456":
             messagebox.showerror("Successfull",f"wellcome {self.uname.get()}")
         else:
-            messagebox.showerror("Error", "Invalid User Name or Password")
+            messagebox.showerror("Error", "Invalid user ame or Password")
 
 root = Tk()
 obj = login_system(root)
