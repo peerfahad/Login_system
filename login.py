@@ -50,9 +50,9 @@ class login_system:
         if self.uname.get() == "" or self.paswd.get() == "":
             messagebox.showerror("Error", "All fields are required")
         elif self.uname.get() == "fahad" and self.paswd.get() == "123456":
-            messagebox.showerror("Successfull",f"wellcome{self.uname.get()}")
+            messagebox.showerror("Successfull",f"wellcome {self.uname.get()}")
         else:
-            messagebox.showerror("Error", "Invalid user name or password")
+            messagebox.showerror("Error", "Invalid User Name or Password")
 
 root = Tk()
 obj = login_system(root)
